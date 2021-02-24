@@ -1,0 +1,148 @@
+:root {
+    --offWhite: #EFEEEA;
+    --offWhiteLight: #F6F6F4;
+    --white: #FFFFFF;
+    --blue: #18757a;
+    --sandy: #fff0d7;
+    --aqua: #189ca5;
+    --aquaLight1: #a3d7db;
+    --aquaLight2: #bae1e4;
+    --aquaLight3: #d1ebed;
+    --aquaLight4: #e8f5f6;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fullsite {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(/images/sheetmusic.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.header h1 {
+    color: var(--offWhiteLight);
+    font-size: 50px;
+}
+
+.searchField {
+    padding: 30px 30px;
+    width: 100%;
+    background-color: var(--sandy);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    
+}
+
+.searchField img {
+    margin-left: 20px;
+}
+
+.myForm {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.myForm form {
+    margin-left: 30px;
+}
+
+.currentWeather {
+    padding: 30px 30px;
+    width: 100%;
+    background-color: var(--aquaLight1);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.results {
+    background-color: var(--offWhiteLight);
+    width: 90%;
+    padding: 20px 20px;
+
+    align-self: center;
+}
+
+.forecast {
+    padding: 30px 30px;
+    width: 100%;
+    background-color: var(--aquaLight2);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+
+
+.attribute {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px;
+    /* background-color: gray; */
+}
+
+.attribute img {
+    padding: 6px 6px;
+}
+
+.attribute p {
+    padding: 6px 20px;
+}
+
+/* FOOTER
+---------------------------------------- */
+.footer {
+    margin-top: auto;
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color:var(--aquaLight4);
+}
+
+.footer img {
+    width: 60%;
+}
+  
+.footer-item {
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.footer-item a {
+    font-weight: bolder;
+    color: black;
+}
+
+/* RESPONSIVE DESIGN
+----------------------------------*/
+@media only screen and (max-width: 500px) {
+    
+}
+
+@media only screen and (min-width: 501px) {
+
+}
